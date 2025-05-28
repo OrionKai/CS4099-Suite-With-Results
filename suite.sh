@@ -642,9 +642,6 @@ function run_data_collection() {
     local set_name
     read -p "Enter a name to identify this set of experiments: " set_name
 
-    local trials
-    read -p "Enter the number of trials to run for each experiment (at least 2): " trials
-
     while true; do
         local trials
         read -p "Enter the number of trials to run for each experiment (at least 2): " trials
